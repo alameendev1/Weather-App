@@ -3,7 +3,7 @@ import 'package:simple_weather_app/pages/weather_page.dart';
 
 
 void main() {
-  runApp( MyApp());
+  runApp( const MyApp());
 }
 
 class MyApp extends StatelessWidget {

@@ -83,7 +83,7 @@ class _WeatherPageState extends State<WeatherPage> {
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
             //city Name
-            Text(_weather?.cityName ?? 'Loading city..'),
+            Text(_weather?.cityName ?? 'Fetching city..'),
 
             //animation
             Lottie.asset(getWeatherAnimation(_weather?.mainCondition)),
